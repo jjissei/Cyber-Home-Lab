@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "workbooks_cd9c50a2_3840_4bca_a364_0bef1748001e_serializedData": {
+            "value": null
+        },
+        "virtualNetworks_Vnet_soc_labs_name": {
+            "value": null
+        },
+        "virtualMachines_CORP_NET_EAST_1_name": {
+            "value": null
+        },
+        "virtualMachines_CORP_NET_EAST_2_name": {
+            "value": null
+        },
+        "dataCollectionRules_DCR_Windows_name": {
+            "value": null
+        },
+        "publicIPAddresses_CORP_NET_EAST_1_ip_name": {
+            "value": null
+        },
+        "publicIPAddresses_CORP_NET_EAST_2_ip_name": {
+            "value": null
+        },
+        "networkInterfaces_corp_net_east_1336_z1_name": {
+            "value": null
+        },
+        "networkInterfaces_corp_net_east_2930_z1_name": {
+            "value": null
+        },
+        "workspaces_LAW_soc_lab_0000_name": {
+            "value": null
+        },
+        "networkSecurityGroups_CORP_NET_EAST_1_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_CORP_NET_EAST_2_nsg_name": {
+            "value": null
+        },
+        "workbooks_cd9c50a2_3840_4bca_a364_0bef1748001e_name": {
+            "value": null
+        },
+        "solutions_SecurityInsights_law_soc_lab_0000__name": {
+            "value": null
+        }
+    }
+}

@@ -1,0 +1,4 @@
+$start = (Get-Date).AddDays(-7)
+Get-WinEvent -FilterHashtable @{LogName='Security'; StartTime=$start; Id=4624,4625} |
+Select-Object TimeCreated, Id, LevelDisplayName, ProviderName, Message |
+Export-Csv C:\Users\Public\security_logons_last7days.csv -NoTypeInformation
